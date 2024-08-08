@@ -76,9 +76,9 @@ const ShopCart = ({ shopItems, addToCart }) => {
                   <i className='fa fa-star'></i>
                 </div>
                 <div className='price'>
-                  <h4>${shopItems.price}.00 </h4>
+                  <h4>₹{shopItems.price}.00 </h4>
                   {/* step : 3  
-                     if hami le button ma click garryo bahne 
+                     
                     */}
                   <button onClick={() => addToCart(shopItems)}>
                     <i className='fa fa-plus'></i>
